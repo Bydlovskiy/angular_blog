@@ -1,0 +1,43 @@
+header {
+  width: 100vw;
+  height: 70px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.btn-group {
+  margin-right: 20px;
+}
+
+.post {
+  width: 90%;
+  height: 150px;
+  display: flex;
+ justify-content: space-between;
+ padding: 15px;
+ margin-top: 15px;
+ border: 1px solid black;
+ border-radius: 7px;
+
+ .by{
+     font-weight:600 ;
+     color: grey;
+     margin-top: 15px;
+ }
+}
+.postContainer{
+    width: 100vw;
+    min-height : 80vh; ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
